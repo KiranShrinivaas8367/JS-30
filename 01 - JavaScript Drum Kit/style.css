@@ -1,0 +1,59 @@
+html {
+  font-size: 10px;
+  background: url('./bg.jpg') bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.keys span{
+  color : #19a4e9;
+  font-weight: bold;
+  font-size: large;
+  text-shadow: 0.5rem #5292b3;
+}
+
+.key {
+  border: .4rem solid #7da2b4;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all 0.5s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  text-shadow: 0 0 .5rem #27a1da;
+}
+
+.playing {
+  transform: scale(0.9);
+  border-color: #5292b3;
+  box-shadow: 0 0 1rem #27a1da;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
