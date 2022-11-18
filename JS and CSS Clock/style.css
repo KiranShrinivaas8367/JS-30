@@ -70,3 +70,8 @@ body{
   background-color: #5c5a5a;
 }
 
+.clock .hand.min{
+  height: 40%;
+  width:6px;
+  background-color:aliceblue;
+}
