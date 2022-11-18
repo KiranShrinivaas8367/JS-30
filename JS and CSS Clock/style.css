@@ -75,3 +75,9 @@ body{
   width:6px;
   background-color:aliceblue;
 }
+
+.clock .hand.hour{
+  height:36%;
+  width:11px;
+  background-color:black;
+}
