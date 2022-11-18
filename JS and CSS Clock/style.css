@@ -49,3 +49,17 @@ body{
 .clock .number9{--rotation:270deg;}
 .clock .number10{--rotation:300deg;}
 .clock .number11{--rotation:330deg;}
+
+.clock .hand{
+  --rotation: 0;
+  position: absolute;
+  /* width:10px;
+  height:42%; */
+  left:50%;
+  bottom:50%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: black;
+  transform-origin: bottom;
+  transform: translateX(-50%) rotate(calc(var(--rotation)*1deg));
+}
