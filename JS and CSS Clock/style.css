@@ -14,15 +14,53 @@ body{
   /* background: url(./assets/bg3.jpeg); */
   /* background: #687CCF;
   background: linear-gradient(to top, #687CCF 0%, #1FCFC9 100%); */
-  background: linear-gradient(to right, #0cbaba, #380036); 
+  background: linear-gradient(to right, #0cbaba, #000438); 
   color: black;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   overflow: hidden;
   display:flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.time{
+  margin-bottom:50px;
+  font-family:'Poppins';
+  /* color: #EEEEEE; */
+  text-align: center;
+  font-size: 60px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(102, 113, 119);
+    -webkit-text-fill-color: #70abc7;
+    /* letter-spacing: 6px; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.date{
+  margin-top:50px;
+  /* color: #EEEEEE; */
+  text-align: center;
+  font-size: 55px;
+    -webkit-text-stroke-width: 3.9px;
+    -webkit-text-stroke-color: #7b8082;
+    -webkit-text-fill-color: #70abc7;
+    letter-spacing: 6px;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.day{
+  margin-top:5px;
+  /* color: #EEEEEE; */
+  text-align: center;
+  font-size: 45px;
+    -webkit-text-stroke-width: 3.9px;
+    -webkit-text-stroke-color: #7b8082;
+    -webkit-text-fill-color: #70abc7;
+    letter-spacing: 6px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .clock{
@@ -31,7 +69,7 @@ body{
   width:400px;
   height:400px;
   border-radius: 50%;
-  border: 20px solid #929AAB;
+  border: 20px solid #706C61;
   position: relative;
   color:#EEEEEE;
   font-style: italic;
@@ -75,7 +113,7 @@ body{
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background-color: black;
-  transform-origin: bottom;
+  transform-origin:bottom;
   transform: translateX(-50%) rotate(calc(var(--rotation)*1deg));
 }
 
