@@ -37,6 +37,7 @@ body {
     border-radius:7px;
     width: 100px;
     height: 40px;
+    
   }
 
   .controls {
@@ -46,6 +47,7 @@ body {
   input {
     width: 100px;
     background-color: #156553;
+    cursor: pointer;
   }
 
   .hl{
