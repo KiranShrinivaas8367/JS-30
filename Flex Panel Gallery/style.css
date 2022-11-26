@@ -79,7 +79,11 @@ html {
     color:azure;
   }
 
-  
+  .panel p:hover{
+    color:#55b9d8;
+    opacity: 1;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.90), 0 0 20px rgba(0, 0, 0, 0.90);
+  }
   
   .panel p:nth-child(2) {
     font-size: 3em;
