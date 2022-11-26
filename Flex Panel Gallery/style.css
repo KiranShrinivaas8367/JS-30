@@ -7,14 +7,10 @@
   }
 
 html {
-    background: #ffc600;
+    /* background: #ffc600; */
     font-size: 20px;
     font-weight: 200;
     font-family: 'Syne Mono', monospace;
-  }
-  
-  body {
-    margin: 0;
   }
 
   .panels {
@@ -28,8 +24,8 @@ html {
     background: #6B0F9C;
     box-shadow: inset 0 0 0 5px rgba(255,255,255,0.1);
     color: white;
-    text-align: center;
-    align-items: center;
+    /* text-align: center; */
+    /* align-items: center; */
     /* Safari transitionend event.propertyName === flex */
     /* Chrome + FF transitionend event.propertyName === flex-grow */
     transition:
@@ -42,9 +38,6 @@ html {
     flex:1;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
   }
 
   .panel1 { background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); }
@@ -58,23 +51,41 @@ html {
     margin: 0;
     width: 100%;
     transition: transform 0.5s;
-    display: flex;
-    flex: 1 0;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-items: center;
+    flex: 1 0 auto;
+    /* border: 1px solid yellow; */
+  }
+
+  .panel > *:first-child{
+    transform:translateY(-100%);
+  }
+  .panel > *:last-child{
+    transform:translateY(100%);
+  }
+  .panel.open-active > *:first-child{
+    transform:translateY(0);
+  }
+  .panel.open-active > *:last-child{
+    transform:translateY(0);
   }
 
   .panel p {
     /* font-family: 'Amatic SC', cursive; */
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
     font-size: 2em;
+    cursor:pointer;
+    opacity:0.6;
+    color:azure;
   }
+
+  
   
   .panel p:nth-child(2) {
-    font-size: 5em;
-    
+    font-size: 3em;
   }
 
   .panel.open {
-    font-size: 40px;
+    flex: 3;
+    font-size: 30px;
   }
