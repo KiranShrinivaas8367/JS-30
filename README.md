@@ -8,3 +8,6 @@ Live links :
   <li><a href="https://js-drumkit01.netlify.app/css%20variables/">CSS Variables With JS</li>
   <li><a href="https://js-drumkit01.netlify.app/flex%20panel%20gallery/">Flex Panel-Image Gallery</li>
 </ol>
+
+References:<br>
+<a href="https://javascript30.com/">Javascript-30</a>
