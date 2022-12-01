@@ -10,4 +10,5 @@ Live links :
 </ol>
 
 References:<br>
-<a href="https://javascript30.com/">Javascript-30</a>
+<a href="https://javascript30.com/">Javascript-30</a><br>
+<a href="https://www.youtube.com/watch?v=Ki0XXrlKlHY&t=346s">JS-clock reference</a>
