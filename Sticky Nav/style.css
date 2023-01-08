@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  background: #73787c;
 }
 
 *, *:before, *:after {
@@ -17,7 +18,7 @@ body {
 .site-wrap {
   max-width: 700px;
   margin: 70px auto;
-  background: white;
+  background: #e3e3e3;
   padding: 40px;
   text-align: justify;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
@@ -42,7 +43,7 @@ h1 {
 }
 
 nav {
-  background: black;
+  background: #254253;
   top: 0;
   width: 100%;
   transition: all 0.5s;
