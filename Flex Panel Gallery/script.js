@@ -19,7 +19,7 @@ function toggleopenActive(e){
     setTimeout(()=>
     {
         this.classList.toggle('open-active');
-    },5000);
+    },300);
 }
 
 panels.forEach(panel => panel.addEventListener('mouseenter',toggleopenActive));
