@@ -8,7 +8,7 @@ function highlightlink(){
     console.log(linkcoords)
     highlight.style.width =`${linkcoords.width}px`;
     highlight.style.height =`${linkcoords.height}px`;
-    highlight.style.transform =`translate(100px,100px)`;
+    highlight.style.transform =`translate(200px,200px)`;
 }
 
 links.forEach(a=>a.addEventListener('mouseenter',highlightlink))
