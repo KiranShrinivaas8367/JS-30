@@ -8,6 +8,7 @@ Live links :
   <li><a href="https://js-drumkit01.netlify.app/css%20variables/">CSS Variables With JS</li>
   <li><a href="https://js-drumkit01.netlify.app/flex%20panel%20gallery/">Flex Panel-Image Gallery</li>
   <li><a href="https://js-drumkit01.netlify.app/sticky%20nav/">Sticky Nav</li>
+  <li><a href="https://js-drumkit01.netlify.app/follow%20along%20link%20highlighter/">Follow Along Link Highlighter</li>
 </ol>
 
 References:<br>
