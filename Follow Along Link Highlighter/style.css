@@ -24,9 +24,10 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
-  background: rgba(0,0,0,0.05);
+  color:gray;
+  background: rgba(145, 150, 149, 0.05);
   border-radius: 20px;
+  padding : 8px;
 }
 
 .highlight {
@@ -47,12 +48,15 @@ a {
   display: flex;
   list-style: none;
   justify-content: center;
+  align-items: center;
   margin:100px 0;
 }
 
 .menu a {
   display: inline-block;
-  padding: 5px;
+  padding: 8px;
   margin: 0 20px;
-  color: black;
+  color: white;
 }
+
+
