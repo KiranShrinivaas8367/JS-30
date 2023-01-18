@@ -8,5 +8,6 @@ speed.addEventListener('mousemove',function(e){
     const y = e.pageY - this.offsetTop;
     // console.log(`${y}px`);
     const percentage = y/this.offsetHeight;
-    
+    const height = Math.ceil(percentage*100);
+    console.log(height + '%')
 });
