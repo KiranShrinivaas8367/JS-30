@@ -5,13 +5,16 @@ html {
 
   body {
     margin: 0;
+    
   }
 
   .hero {
     min-height: 100vh;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    /* display: grid;
+    place-items:center; */
     color: black;
   }
 
