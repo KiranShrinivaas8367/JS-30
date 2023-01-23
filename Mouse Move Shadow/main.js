@@ -1,6 +1,6 @@
 const hero = document.querySelector('.hero')
 const tag = document.querySelector('h1')
-
+const walk = 200
 function shadow(e){
     // const width = hero.offsetWidth;
     // const height = hero.offsetHeight;
@@ -12,7 +12,11 @@ function shadow(e){
         x+=e.target.offsetLeft
         y+=e.target.offsetTop
     }
-    console.log(x,y) 
+    // console.log(x,y) 
+    const xwalk=Math.round((x/width * walk) - (walk/2));
+    const ywalk=Math.round((y/height * walk) - (walk/2));
+    // console.log(xwalk,ywalk)
 }
+
 
 hero.addEventListener('mousemove',shadow);
