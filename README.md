@@ -10,7 +10,9 @@ Live links :
   <li><a href="https://js-drumkit01.netlify.app/sticky%20nav/">Sticky Nav</li>
   <li><a href="https://js-drumkit01.netlify.app/follow%20along%20link%20highlighter/">Follow Along Link Highlighter</li>
   <li><a href="https://js-drumkit01.netlify.app/video%20speed%20controller/">Video Speed Controller</li>
+ <li><a href="https://js-drumkit01.netlify.app/mouse%20move%20shadow/">Mouse Move Shadow</li>
 </ol>
+
 
 References:<br>
 <a href="https://javascript30.com/">Javascript-30</a><br>
