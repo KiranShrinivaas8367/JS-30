@@ -1,3 +1,8 @@
+*,::before,::after{
+  margin:0;
+  padding:0;
+}
+
 html {
     color: black;
     font-family: sans-serif;
@@ -5,7 +10,6 @@ html {
 
   body {
     margin: 0;
-    
   }
 
   .hero {
@@ -16,10 +20,11 @@ html {
     display: grid;
     place-items:center;
     color: black;
+    background-image: linear-gradient(to right bottom, #ffffff, #f0f0f0, #e1e1e1, #d2d2d2, #c4c4c4);
   }
 
   h1 {
     text-shadow: 10px 10px 0 rgba(0,0,0,1);
     font-size: 100px;
-    background:yellow;
+    /* background:yellow; */
   }
