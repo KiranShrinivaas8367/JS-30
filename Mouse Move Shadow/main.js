@@ -1,6 +1,6 @@
 const hero = document.querySelector('.hero')
 const tag = document.querySelector('h1')
-const walk = 200
+const walk = 500
 function shadow(e)
 {
     // const width = hero.offsetWidth;
