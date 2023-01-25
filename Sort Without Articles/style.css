@@ -1,7 +1,13 @@
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: sans-serif;
-    background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
+    background-image: linear-gradient(to right bottom, #576166, #6a7479, #7d888d, #919da1, #a5b2b5);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -11,23 +17,24 @@ body {
   #bands {
     list-style: inside square;
     font-size: 20px;
-    background: white;
+    /* background-image: linear-gradient(to right bottom, #909597, #969b9d, #9ca1a3, #a3a8a9, #a9aeaf); */
+    background-image: linear-gradient(to right bottom, #576166, #697276, #7c8487, #909698, #a4a9aa);
     width: 500px;
     margin: auto;
     padding: 0;
-    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.2);
   }
   
   #bands li {
     border-bottom: 1px solid #efefef;
+    /* margin: 20px; */
     padding: 20px;
+    color: white;
+    text-shadow: 10px 0px 17px rgba(0, 0, 0, 0.99);
   }
   
-  #bands li:last-child {
+  /* #bands li:last-child {
     border-bottom: 0;
-  }
+  } */
 
-  a {
-    color: #ffc600;
-    text-decoration: none;
-  }
+  
