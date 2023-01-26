@@ -54,3 +54,10 @@ body {
     color: white;
     text-shadow: 10px 0px 17px rgba(0, 0, 0, 0.99);
   }
+
+  .equalto{
+    font-size: 100px;
+    color:silver;
+    display: grid;
+    place-items: center;
+  }
