@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+
 *,*::after,*::before{
     margin:0;
     padding:0;
@@ -5,14 +7,27 @@
 }
 
 body {
-    margin: 0;
     font-family: sans-serif;
     background-image: linear-gradient(to right bottom, #576166, #6a7479, #7d888d, #919da1, #a5b2b5);
     background-size: cover;
-    display: flex;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100vh; 
+    scroll-behavior: smooth;
+    overflow:auto;
   }
+
+ h2{
+   font-size: 50px;
+   color:white;
+   display: flex;
+   justify-content: center;
+   margin:3rem 40rem;
+   font-style: initial;
+   font-family: 'Charm', cursive;
+   color:silver;
+   text-shadow: 10px 0px 5px rgba(0, 0, 0, 0.90);
+   border-bottom: 2px solid rgba(24, 22, 22, 0.5);
+ }
 
   #bands {
     list-style: inside square;
@@ -32,9 +47,3 @@ body {
     color: white;
     text-shadow: 10px 0px 17px rgba(0, 0, 0, 0.99);
   }
-  
-  /* #bands li:last-child {
-    border-bottom: 0;
-  } */
-
-  
