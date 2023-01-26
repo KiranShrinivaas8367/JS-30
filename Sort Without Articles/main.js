@@ -14,3 +14,13 @@ function skip(name){
 
  document.querySelector('#bands').innerHTML=sorted.map(band => `<li>${band}</li>`).join(' ');
  
+
+ 
+
+  
+
+  
+
+  
+
+  
