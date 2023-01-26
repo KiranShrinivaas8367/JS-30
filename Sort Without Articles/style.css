@@ -29,6 +29,13 @@ body {
    border-bottom: 2px solid rgba(24, 22, 22, 0.5);
  }
 
+ .container{
+  display : flex;
+  width: 90vw;
+  height: 100vh;
+  margin-left:5rem;
+}
+
   #bands {
     list-style: inside square;
     font-size: 20px;
