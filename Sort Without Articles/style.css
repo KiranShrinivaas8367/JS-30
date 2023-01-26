@@ -61,3 +61,21 @@ body {
     display: grid;
     place-items: center;
   }
+
+  #list {
+    list-style: inside square;
+    font-size: 20px;
+    /* background-image: linear-gradient(to right bottom, #909597, #969b9d, #9ca1a3, #a3a8a9, #a9aeaf); */
+    background-image: linear-gradient(to right bottom, #576166, #697276, #7c8487, #909698, #a4a9aa);
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+  #list li{
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    text-shadow: 10px 0px 17px rgba(0, 0, 0, 0.99);
+    color:white;
+  }
