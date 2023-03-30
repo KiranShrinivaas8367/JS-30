@@ -32,7 +32,7 @@ body {
   }
 
   .controls input[type="color"] {
-    background-color: gray;
+    background-color: rgb(117, 115, 115);
     border:none;
     border-radius:7px;
     width: 100px;
@@ -53,4 +53,45 @@ body {
   .hl{
       color:var(--base);
       text-shadow: 3px 3px var(--base);
+  }
+
+  /*----Media-Query----*/
+  @media (max-width:500px){
+    img{
+      width:90vw;
+      height:90vw;
+    }
+
+    h2{
+      white-space: pre-wrap;
+      font-size: 4rem;
+    }
+
+    .controls{
+      display: flex;
+      justify-content: center;
+      white-space: pre-wrap;
+      flex-wrap: wrap;
+      margin:1rem auto;
+    }
+
+    #spacing{
+      margin:1rem;
+      width:75px;
+    }
+
+    #blur{
+      margin:1rem;
+      width:75px;
+    }
+
+    #base{
+      margin:1rem;
+      width:75px;
+    }
+
+    label{
+      font-size: 50px;
+    
+    }
   }
