@@ -16,15 +16,21 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 500px;
-  font-size: 20px;
+  max-width: 600px;
   line-height: 2;
+  text-align: justify;
   position: relative;
 }
 
-a {
+.menu li a{
+  font-size: 1.8rem;
+  white-space: nowrap;
+}
+
+a{
   text-decoration: none;
-  color:gray;
+  color:rgb(139, 135, 135);
+  font-size: 1.5rem;
   /* background: rgba(145, 150, 149, 0.05); */
   border-radius: 20px;
   padding : 8px;
@@ -43,14 +49,13 @@ a {
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-.menu {
+.menu{
   padding: 0;
   display: flex;
   list-style: none;
   justify-content: center;
   align-items: center;
   margin:100px 0;
-  
 }
 
 .menu a {
@@ -58,9 +63,13 @@ a {
   padding: 8px;
   margin: 0 20px;
   color: gray ;
-  background: rgba(145, 150, 149, 0.05);
+  background: rgba(70, 196, 70, 0.05);
 }
 
 .menu a:hover{
   background: #b8dce7;
+}
+
+.wrapper p{
+  font-size: 1.5rem;
 }
