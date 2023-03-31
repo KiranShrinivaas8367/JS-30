@@ -21,7 +21,8 @@ body {
    color:white;
    display: flex;
    justify-content: center;
-   margin:3rem 40rem;
+   width:max-content;
+   margin: auto;
    font-style: initial;
    font-family: 'Charm', cursive;
    color:silver;
@@ -33,7 +34,7 @@ body {
   display : flex;
   width: 90vw;
   height: 100vh;
-  margin-left:5rem;
+  margin-left:3.5rem;
 }
 
   #bands {
@@ -56,7 +57,7 @@ body {
   }
 
   .equalto{
-    font-size: 100px;
+    font-size: clamp(50px,2vw,100px);
     color:silver;
     display: grid;
     place-items: center;
@@ -101,4 +102,10 @@ body {
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: grey; 
+  }
+
+  @media(max-width:400px){
+    .container{
+      display: none;
+    }
   }
