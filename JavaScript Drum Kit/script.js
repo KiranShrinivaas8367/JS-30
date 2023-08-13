@@ -22,8 +22,8 @@ function changeaudioheader(e){
     if(!audio) return;
     audio.currentTime=0;
     audio.play();
-    const kbd = key.querySelector('kbd');
-    const dataKey = kbd.textContent;
+    // const kbd = key.querySelector('kbd');
+    // const dataKey = kbd.textContent;
     const span = key.querySelector('.sound');
     const p = document.querySelector('.audio-name');
     p.textContent = span.textContent.toUpperCase();
