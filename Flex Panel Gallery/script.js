@@ -24,4 +24,4 @@ function toggleopenActive(e){
 
 panels.forEach(panel => panel.addEventListener('mouseenter',toggleopenActive));
 panels.forEach(panel => panel.addEventListener('mouseleave',toggleopenActive));
-panels.forEach(panel => panel.addEventListener('transitionend',toggleopenActive))
+// panels.forEach(panel => panel.addEventListener('transitionend',toggleopenActive))
