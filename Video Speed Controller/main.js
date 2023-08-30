@@ -4,7 +4,7 @@ const video = document.querySelector('.flex')
 
 speed.addEventListener('mousemove',function(e){
     // console.log(e.pageY,this.offsetTop)
-    // console.log(this.offsetHeight)
+    console.log(this.offsetHeight,this.offsetWidth)
     // console.log(`${y}px`);
     const y = e.pageY - this.offsetTop;
     const percentage = y/this.offsetHeight;
