@@ -44,15 +44,16 @@ h1 {
 
 nav {
   background: #254253;
-  top: 0;
+  /* top: 0; */
   width: 100%;
   transition: all 0.5s;
-  position: relative;
+  /* position: relative; */
   z-index: 1;
 }
 
 .fixed-nav nav{
   position: fixed;
+  top:0;
   box-shadow: 0 5px rgba(0, 0, 0, 0.1)
 }
 
